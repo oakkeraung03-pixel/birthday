@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffe8f0">
+<title>For အသေးလေး ♡</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a href="#home" class="brand">♡ for အသေးလေး</a>
+  <button id="musicBtn" class="music-btn" aria-pressed="false">♫ Music Off</button>
+</header>
+<div id="floatLayer" aria-hidden="true"></div>
+<main>
+<section id="home" class="scene active hero">
+  <div class="night-sky"><span>✦</span><span>✧</span><span>☾</span><span>✦</span><span>✧</span></div>
+  <p class="eyebrow">a tiny universe, made just for you</p>
+
+  <div class="hero-couple">
+    <img
+      src="assets/images/bubu-dudu.gif"
+      alt="Bubu and Dudu hugging"
+      class="hero-sticker"
+    >
+  </div>
+  
+  <h1>Happy Birthday<br><span>အသေးလေး</span> ♡</h1>
+  <p class="intro">ဒီနေ့လေးက မင်းအတွက်ပဲ။<br>အံ့ဩစရာလေးတွေကို အဆုံးထိ လိုက်ကြည့်နော်…</p>
+  <button class="primary" data-go="gift">Start our journey <span>♡</span></button>
+  <div class="music-hint">♫ Play the cute little song</div>
+</section>
+
+<section id="gift" class="scene">
+  <p class="eyebrow">01 · a little surprise</p><h2>A gift, just for you 🎁</h2>
+  <p class="sub">ဒီသေတ္တာလေးထဲမှာ မင်းအတွက် လက်ဆောင်လေးရှိတယ်။</p>
+  <div class="gift-scene">
+    <div class="gift-box" id="giftBox" role="button" tabindex="0" aria-label="Open gift box">
+      <div class="gift-lid"><span class="bow"></span></div><div class="gift-body"><span class="ribbon"></span><span class="gift-heart">♡</span></div>
+      <div class="gift-spark s1">✦</div><div class="gift-spark s2">♥</div>
+    </div>
+   
+<div class="mini-couple">
+  <img
+    src="assets/images/bubu-dudu.webp"
+    alt="Bubu and Dudu cute couple"
+    class="gift-sticker"
+  >
+</div>
+
+  </div>
+  <p id="giftMsg" class="status">သေတ္တာလေးကို နှိပ်ပြီးဖွင့်ကြည့်ပါ ♡</p>
+  <button id="openGift" class="primary">🎀 Open gift box</button>
+  
+<div id="giftReveal" class="reveal hidden">
+  <div class="gift-reveal-sticker">
+    <img
+      src="assets/images/dudu.webp"
+      alt="Bubu and Dudu gift surprise"
+      class="gift-reveal-img"
+    >
+  </div>
+
+  <p>မင်းကိုယ်တိုင်က လက်ဆောင်တစ်ခုလိုပါပဲ။<br>
+  ဒီနေ့ မင်းကို ပျော်ရွှင်စေချင်တဲ့သူတစ်ယောက် ရှိနေတယ်နော်။</p>
+
+  <button class="secondary" data-go="reasons">What's next? →</button>
+</div>
+
+</section>
+
+<section id="reasons" class="scene">
+  <p class="eyebrow">02 · from my heart</p><h2>5 Reasons I Love You 💗</h2>
+  <p class="sub">နှလုံးလေးတစ်ခုချင်းကို နှိပ်ကြည့်နော်။</p>
+  <div class="reasons-grid">
+    <button class="reason" data-reason="မင်းရဲ့အပြုံးလေးက ကိုယ့်ရဲ့နေ့ဆိုးတွေကိုတောင် ပိုလင်းလာစေတယ်။"><span>♡</span><b>Your smile</b><small>tap to reveal</small></button>
+    <button class="reason" data-reason="မင်းရဲ့စိတ်ထားကောင်းလေးကို ငါတကယ်တန်ဖိုးထားတယ်။"><span>♡</span><b>Your kind heart</b><small>tap to reveal</small></button>
+    <button class="reason" data-reason="မင်းနဲ့စကားပြောရတဲ့အချိန်တွေက ရိုးရိုးလေးပေမဲ့ အဓိပ္ပာယ်ရှိတယ်။"><span>♡</span><b>The way you talk</b><small>tap to reveal</small></button>
+    <button class="reason" data-reason="မင်းကြိုးစားနေတဲ့အရာတွေကို မြင်ရတာ ငါ့ကိုလည်း ကြိုးစားချင်စေတယ်။"><span>♡</span><b>Your strength</b><small>tap to reveal</small></button>
+    <button class="reason" data-reason="မင်းက မင်းဖြစ်နေလို့ပဲ အရေးကြီးတာပါ။ ဘာမှသက်သေပြစရာမလိုဘူး။"><span>♡</span><b>Simply you</b><small>tap to reveal</small></button>
+  </div>
+  <p id="reasonText" class="reason-text" aria-live="polite">နှလုံးလေးတစ်ခုကို ရွေးလိုက်ပါ…</p>
+  <button class="primary" data-go="cake">Birthday cake time →</button>
+</section>
+
+<section id="cake" class="scene">
+  <p class="eyebrow">03 · make a wish</p><h2>Birthday Cake Time 🎂</h2>
+  <p class="sub">အရင်ဆုံး မီးညှိ၊ ပြီးရင် ဆုတောင်း၊ နောက်ဆုံး မီးမှုတ်ရမယ်နော်။</p>
+  <div class="cake-stage">
+    
+<div class="cake-couple">
+  <img
+    src="assets/images/cute.gif"
+    alt="Bubu and Dudu celebrating a birthday"
+    class="cake-sticker"
+  >
+</div>
+
+    <div class="cake" id="cakeArt"><div class="candles"><i class="candle"><b class="flame"></b></i><i class="candle"><b class="flame"></b></i><i class="candle"><b class="flame"></b></i></div><div class="tier top-tier"></div><div class="tier mid-tier"></div><div class="tier base-tier"></div><span class="cake-heart">♥</span></div>
+  </div>
+  <p id="cakeStatus" class="status" aria-live="polite">မင်းအတွက် ကိတ်မုန့်လေး ပြင်ထားတယ် 💗</p>
+  <div class="controls"><button id="lightCandles" class="primary">🕯️ မီးထွန်းမယ်</button><button id="makeWish" class="secondary" disabled>✨ မွေးနေ့ဆုတောင်းမယ်</button><button id="blowCandles" class="secondary" disabled>💨 မီးငြိမ်းမယ်</button></div>
+  <button id="cakeNext" class="text-btn hidden">My birthday wish for you →</button>
+</section>
+
+<section id="wishes" class="scene">
+  <p class="eyebrow">04 · my wish for you</p><h2>May your wishes come true 🌷</h2>
+  <div class="wish-card">
+    <div class="sticker little-hug"><div class="bear brown"><i class="ear e1"></i><i class="ear e2"></i><i class="eye x1"></i><i class="eye x2"></i><i class="cheek c1"></i><i class="cheek c2"></i><i class="mouth"></i></div><div class="bunny white"><i class="ear e1"></i><i class="ear e2"></i><i class="eye x1"></i><i class="eye x2"></i><i class="cheek c1"></i><i class="cheek c2"></i><i class="mouth"></i></div></div>
+    <p>အသေးလေးရေ…</p><p>မင်းရဲ့နေ့ရက်တိုင်းမှာ ပျော်ရွှင်စရာလေးတွေ ပိုများလာပါစေ။ မင်းကြိုးစားနေတဲ့ အိပ်မက်တွေ တစ်ခုချင်းစီ အကောင်အထည်ပေါ်လာပါစေ။</p><p>ပင်ပန်းတဲ့နေ့တွေမှာလည်း ကိုယ့်ကိုယ်ကို နူးနူးညံ့ညံ့ဆက်ဆံတတ်ပါစေ။ မင်းရဲ့အပြုံးတွေ မပျောက်သွားဘဲ မင်းကိုချစ်ခင်တဲ့သူတွေရဲ့ နွေးထွေးမှုကို အမြဲခံစားရပါစေ။</p><p>မင်းပျော်ရွှင်နေတာကို မြင်ရတဲ့သူတွေထဲမှာ ငါလည်း ပါဝင်ခွင့်ရချင်တယ်။ Happy Birthday, my little one. 🤍</p>
+  </div>
+  <button class="primary" data-go="memories">Open My Favorite your look →</button>
+</section>
+
+<section id="memories" class="scene">
+  <p class="eyebrow">05 · little pieces of you</p><h2>My Favorite your look 📸</h2><p class="sub">ကိုယ်အမြဲပြန်ကြည့်ချင်တဲ့ မင်းအပုံလေးတွေ။</p>
+  <div class="memory-grid">
+    <button class="polaroid" data-photo="1"><span class="photo-frame"><img src="assets/images/photo1.jpg" alt="Memory photo 1" onerror="this.remove()"><span class="placeholder">Your photo here ♡</span></span><span class="caption">your lovely smile ♡</span></button>
+    <button class="polaroid tilt" data-photo="2"><span class="photo-frame"><img src="assets/images/photo2.jpg" alt="Memory photo 2" onerror="this.remove()"><span class="placeholder">A little moment ✿</span></span><span class="caption">ကိုအကြိုက်ဆုံးအပြုံးလေး ✿</span></button>
+    <button class="polaroid" data-photo="3"><span class="photo-frame"><img src="assets/images/photo3.jpg" alt="Memory photo 3" onerror="this.remove()"><span class="placeholder">Pretty as always ♡</span></span><span class="caption">အသဲယားစရာ ဆူပုတ်ပုတ်လေး ♡</span></button>
+  </div>
+  <p class="tiny"></p>
+  <button class="primary" data-go="quiz">A tiny quiz about you →</button>
+</section>
+
+
+<section id="quiz" class="scene">
+  <p class="eyebrow">06 · ကိုယ်မင်းအကြောင်း သိလား</p>
+
+  <h2>အသေးလေးအကြောင်း မေးခွန်းလေးတွေ 💞</h2>
+
+  <p class="sub">
+    အပျော်သဘော မေးခွန်းလေးတွေပါနော်။ ♡
+  </p>
+
+  <div class="quiz-card">
+    <div class="quiz-count" id="quizCount">
+      မေးခွန်း ၁ / ၃
+    </div>
+
+    <h3 id="quizQuestion">
+      ကိုယ့်အတွက် မင်းဆီက ဘယ်အရာလေးကို အချစ်ဆုံးလဲ။
+    </h3>
+
+    <div id="quizOptions" class="quiz-options">
+      <button data-answer="0">မင်းရဲ့အပြုံးလေး</button>
+      <button data-answer="1">မင်းရဲ့စိတ်ထားကောင်းလေး</button>
+      <button data-answer="2">မင်းရယ်မောပုံလေး</button>
+      <button data-answer="3">အဲ့ဒီအရာလေးတွေအားလုံး ♡</button>
+    </div>
+
+    <p id="quizFeedback" aria-live="polite">
+      အဖြေလေးတစ်ခု ရွေးလိုက်နော်။ 💗
+    </p>
+
+    <button id="quizNext" class="secondary hidden">
+      နောက်မေးခွန်းသို့ → 
+    </button>
+  </div>
+
+  <button class="primary" data-go="story">
+    ကိုယ်တို့ရဲ့ အချစ်ဇာတ်လမ်းလေး → 
+  </button>
+</section>
+
+
+<section id="story" class="scene">
+  <p class="eyebrow">07 · us, gently</p><h2>Our Little Story 🧸</h2>
+  <div class="story-list">
+    <article><span>♡ Chapter 1</span><h3>How it started</h3><p>မင်းနဲ့စတွေ့ခဲ့တဲ့အချိန်က အမှတ်တရတွေကို ငါတန်ဖိုးထားတယ်။ အဲဒီအချိန်က ခံစားချက်လေးတွေက ငါ့အတွက် အရေးကြီးနေတုန်းပဲ။</p></article>
+    <article><span>♡ Chapter 2</span><h3>The beautiful memories</h3><p>အတူရယ်ခဲ့တဲ့အချိန်တွေ၊ စကားပြောခဲ့တဲ့နေ့ရက်တွေ၊ ရိုးရိုးလေးပေမဲ့ အဓိပ္ပာယ်ရှိခဲ့တဲ့အရာတွေကို မှတ်မိနေတယ်။</p></article>
+    <article><span>♡ Chapter 3</span><h3>Even when it was hard</h3><p>အရာအားလုံးက ကိုယ်လိုချင်သလို အမြဲမဖြစ်တတ်ဘူး။ ဒါပေမဲ့ အချင်းချင်းကို နားလည်ပေးဖို့နဲ့ လေးစားပေးဖို့က အရေးကြီးတယ်လို့ သင်ယူခဲ့တယ်။</p></article>
+    <article><span>♡ Chapter 4</span><h3>A new chapter?</h3><p>မင်းလည်း ဆန္ဒရှိမယ်ဆိုရင် အလျင်မလိုဘဲ တစ်ဆင့်ချင်း ကောင်းတဲ့အမှတ်တရအသစ်တွေ ဖန်တီးကြည့်ချင်တယ်။</p></article>
+  </div>
+  <button class="primary" data-go="letter">One last letter 💌</button>
+</section>
+
+<section id="letter" class="scene final-scene">
+  <p class="eyebrow">08 · things I don't always say</p><h2>A letter from me, just for you</h2>
+  <div class="letter-stage" id="letterStage">
+    <div class="envelope"><span>♥</span></div>
+    <article class="letter-paper"><p class="letter-to">My dearest အသေးလေး,</p><p id="letterText"></p><p class="signature">with all my heart, ♡</p></article>
+  </div>
+  <button id="openLetter" class="primary">Open my heart 💌</button>
+  <div id="ending" class="ending hidden">
+    <div class="sticker couple hug ending-couple"><div class="bear brown"><i class="ear e1"></i><i class="ear e2"></i><i class="eye x1"></i><i class="eye x2"></i><i class="cheek c1"></i><i class="cheek c2"></i><i class="mouth"></i><i class="arm"></i></div><div class="bunny white"><i class="ear e1"></i><i class="ear e2"></i><i class="eye x1"></i><i class="eye x2"></i><i class="cheek c1"></i><i class="cheek c2"></i><i class="mouth"></i><i class="arm"></i></div><b class="heart h1">♥</b><b class="heart h2">♡</b></div>
+    <h2>Happy Birthday, my first love. 🤍</h2>
+    <p>မင်းရှိနေတာကိုယ်တိုင်က လှပတဲ့အရာတစ်ခုပါ။</p><p class="forever">If you want, let's write a gentler next chapter together.</p>
+    <button id="replay" class="secondary">↻ Start our little journey again</button>
+  </div>
+</section>
+</main>
+<div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true"><button id="closePhoto" aria-label="Close">×</button><img id="largePhoto" alt="Memory enlarged"><p id="photoCaption"></p></div>
+<audio id="cuteMusic" src="music/cute-opening.mp3" loop preload="none"></audio>
+<audio id="pianoMusic" src="music/emotional-piano.mp3" loop preload="none"></audio>
+<footer>made with ♡, only for အသေးလေး</footer>
+</body></html>
